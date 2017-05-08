@@ -40,7 +40,7 @@ class ECOC_OutputLayer(caffe.Layer):
         nSample=Y_temp.shape[0]
         
        
-        Y=sio.loadmat('/home/peiyong/Work/ZhangLe/Caffe-2StreamwithCenterLoss/examples/pycaffe/layers/Y_300.mat')
+        Y=sio.loadmat('/home/peiyong/Work/ZhangLe/Caffe-2StreamwithCenterLoss/examples/pycaffe/layers/Y_1000.mat')
         Y=Y['Y']
         Y_final=np.zeros((nSample,1))
        
